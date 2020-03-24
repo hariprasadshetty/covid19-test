@@ -1,0 +1,96 @@
+body {
+  background-image: url('../Helpers/applicationBackground2.jpg');
+    padding: 1rem !important;
+    font-family: 'Roboto' !important;
+    font-size: 16px !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.headerStyle{
+    background-color: rgba(210, 242, 250, 0.356);
+    padding: 1rem;
+    border-bottom: solid 1px;
+}
+
+.headerStyle h2,
+.headerStyle h5 {
+    position: relative !important;
+    
+}
+
+.headerStyle h2{
+    text-align: center !important;
+}
+
+
+.TitleValuesStyle{
+    position: relative !important;
+    background-color: rgba(211, 211, 211, 0.274) !important;
+    border: solid 1px;
+    height:7rem;
+}
+
+.detailedStyle{
+    height: 30rem;
+}
+
+.footerStyle{
+    height: 2rem;
+  
+}
+
+.footerStyle h3{
+    text-align: center;
+}
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-top: 1px;
+    height: 49px;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+    height: 3rem;
+    border-right:1px solid #bbb;
+  }
+    
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 3px 36px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #4CAF50;
+  }
+  
+  .active {
+    background-color: #4CAF50;
+  }
+
+  .list-group-item {
+    padding: 10px 25px !important; 
+  }
+
+  .detailsBlock{
+    overflow: scroll;
+    height: 25rem;
+    overflow-x: hidden;
+    height: 24rem;
+  }
